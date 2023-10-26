@@ -5,11 +5,6 @@ version = 'v2.25.1-ce'
 adminSecret = 'o_A^0hsy0w!yv+Wb_q_ggrz__I8dWs5i'
 webhookSecret = 'H1+!OZAfeb_4FHAQRZ67aXqKtVwV=sSA'
 
-[[hasura.jwtSecrets]]
-type = 'HS256'
-key = '{{ secrets.HASURA_GRAPHQL_JWT_SECRET }}'
-
-
 [[global.environment]]
 name = 'NHOST_GRAPHQL_URL'
 value = 'https://yfnaaqdhstomxncwctej.graphql.ap-south-1.nhost.run/v1'
